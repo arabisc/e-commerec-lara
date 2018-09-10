@@ -6407,6 +6407,10 @@ a {
   * @import "utilities/skew-transforms";
   */
 
+body {
+  font-size: 13px;
+}
+
 a,
 h1,
 input,
@@ -6417,7 +6421,7 @@ p {
 }
 
 .text-xxs {
-  font-size: .65em;
+  font-size: .75em;
 }
 
 @media (min-width: 576px) {

@@ -1,4 +1,4 @@
-<div class="flex items-center bg-white flex-wrap p-8 shadow-lg">
+{{-- <div class="flex items-center bg-white flex-wrap p-8 shadow-lg">
   <div class="flex-no-grow">
     <h1 class="text-grey-darkest text-4xl" style="text-shadow: 0px 0px 4px grey">
       تجارة <span class="text-yellow-dark">ON</span> لاين
@@ -33,4 +33,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> --}}

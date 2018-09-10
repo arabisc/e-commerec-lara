@@ -20,9 +20,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="bg-grey-lighter">
+<body class="bg-purple-lightest">
   <div id="app">
-    <header class="header">
+    <header class="header block">
       @include('client._include.navs.client-topnav')
       @include('client._include.navs.client-titleBar')
       @include('client._include.navs.client-mainnav')
@@ -30,7 +30,7 @@
     {{-- Header --}}
 
     <main class="container mx-auto flex flex-wrap my-6">
-        @yield('content')
+        {{-- @yield('content') --}}
     </main>
   </div>
   @yield('scripts')
